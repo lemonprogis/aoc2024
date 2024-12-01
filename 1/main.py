@@ -13,7 +13,7 @@ def main():
     l1 = []
     l2 = []
     d = []
-    with open("input.txt", 'r') as f:
+    with open("input_1.txt", 'r') as f:
         items = f.readlines()
         for i in items:
             locations = i.strip('\n').split('   ')
